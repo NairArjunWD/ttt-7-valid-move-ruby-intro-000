@@ -2,11 +2,11 @@
 
 def valid_move?(board, index)
   def position_taken?(board, index)
-    
-    return true
-  else 
-    return false
-  end
+    if board == " " || board == "" || board == nil
+      return true
+    else 
+      return false
+    end
 
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
